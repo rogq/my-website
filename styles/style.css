@@ -1,37 +1,19 @@
-/* Basic page reset */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #111;
-  color: #eee;
-  line-height: 1.5;
+/* Photo gallery grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
 }
 
-/* Center your content */
-main {
-  max-width: 700px;
-  margin: 40px auto;
-  padding: 20px;
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.2s ease;
 }
 
-/* Header */
-h1 {
-  color: #A12E25; /* Your red theme */
-  margin-bottom: 10px;
-}
-
-/* Paragraph */
-p {
-  font-size: 1.1rem;
-}
-
-/* Link style */
-a {
-  color: #A12E25;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+.gallery img:hover {
+  transform: scale(1.03);
 }
