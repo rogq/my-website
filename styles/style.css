@@ -1,0 +1,37 @@
+/* Basic page reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #111;
+  color: #eee;
+  line-height: 1.5;
+}
+
+/* Center your content */
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  color: #A12E25; /* Your red theme */
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+  font-size: 1.1rem;
+}
+
+/* Link style */
+a {
+  color: #A12E25;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
